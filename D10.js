@@ -81,11 +81,11 @@ console.log("ESERCIZIO 1: ", dice());
   Crea una funzione chiamata "whoIsBigger" che riceve due numeri come parametri e ritorna il maggiore dei due.
 */
 
-const whoIsBigger = (num1, num2) => {
-  if (num1 > num2) {
-    return num1;
+const whoIsBigger = (numero1, numero2) => {
+  if (numero1 > numero2) {
+    return numero1;
   } else {
-    return num2;
+    return numero2;
   }
 };
 
